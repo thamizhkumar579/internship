@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration - HTML Basics</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="students.html">Students</a>
+            <a href="register.html">Registration</a>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post" class="registration-form">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter your phone number">
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+
+            <label for="course">Select Course:</label>
+            <select id="course" name="course" required>
+                <option value="">-- Select a Course --</option>
+                <option value="html">HTML Basics</option>
+                <option value="css">CSS Basics</option>
+                <option value="javascript">JavaScript</option>
+                <option value="python">Python</option>
+            </select>
+
+            <p>Gender:</p>
+            <label class="inline">
+                <input type="radio" name="gender" value="male"> Male
+            </label>
+            <label class="inline">
+                <input type="radio" name="gender" value="female"> Female
+            </label>
+
+            <label for="message">Address:</label>
+            <textarea id="message" name="address" rows="4"
+                      placeholder="Enter your address"></textarea>
+
+            <label class="inline">
+                <input type="checkbox" name="terms" required>
+                I agree to the terms and conditions
+            </label>
+
+            <div class="buttons">
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 My Internship Project</p>
+    </footer>
+</body>
+</html>

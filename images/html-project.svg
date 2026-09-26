@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+<rect width="900" height="420" rx="24" fill="#eef4ff"/>
+<rect x="70" y="55" width="760" height="310" rx="18" fill="white" stroke="#123c69" stroke-width="5"/>
+<text x="450" y="145" text-anchor="middle" font-family="Arial" font-size="54" font-weight="bold" fill="#123c69">HTML BASICS</text>
+<text x="450" y="205" text-anchor="middle" font-family="Arial" font-size="27" fill="#333">My Week 1 Internship Project</text>
+<text x="450" y="260" text-anchor="middle" font-family="monospace" font-size="28" fill="#d35400">&lt;html&gt; &lt;head&gt; &lt;body&gt;</text>
+<text x="450" y="310" text-anchor="middle" font-family="Arial" font-size="22" fill="#555">Headings • Paragraphs • Images • Tables • Forms • Links</text>
+</svg>
